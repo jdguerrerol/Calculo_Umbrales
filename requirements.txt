@@ -4,5 +4,5 @@ numpy
 scipy
 matplotlib
 fpdf
-base64
+pip install --upgrade pip
 datetime
