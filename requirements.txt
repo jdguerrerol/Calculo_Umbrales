@@ -1,8 +1,6 @@
-streamlit
-pandas
-numpy
-scipy
-matplotlib
-fpdf
-pip install --upgrade pip
-datetime
+streamlit==1.25.0
+pandas==2.2.3
+numpy==1.21.0
+scipy==1.14.1
+matplotlib==3.9.2
+fpdf==1.7.2
