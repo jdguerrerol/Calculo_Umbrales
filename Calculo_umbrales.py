@@ -36,7 +36,7 @@ def generar_pdf(nombre_indicador, resumen_percentiles, resumen_desviaciones, fig
     pdf.set_auto_page_break(auto=True, margin=15)
 
     # Ruta del logo
-    logo_path = 'Z:\info_Juan_David\Aplicativo Calculo de Umbrales\logo_pdf2.jpg'  # Cambia por la ruta del logo
+    logo_path = 'logo_pdf2.jpg'  # Cambia por la ruta del logo
     
     # Portada
     pdf.add_page()
@@ -183,7 +183,7 @@ st.sidebar.markdown("""
 """, unsafe_allow_html=True)
 
 # Mostrar el logo con la clase personalizada
-st.sidebar.image('Z:/info_Juan_David/Proyectos Redes/logo-bp2.png', use_column_width=False, width=250)
+st.sidebar.image('logo-bp2.png', use_column_width=False, width=250)
 
 # Barra lateral
 #st.sidebar.title("⚙️ Configuración")
@@ -289,7 +289,7 @@ st.sidebar.markdown("""
     - No hay celdas vacías en estas columnas.
 """)
 
-with open("Z:/info_Juan_David/Aplicativo Calculo de Umbrales/Muestra.xlsx", "rb") as file:
+with open("Muestra.xlsx", "rb") as file:
             st.sidebar.download_button(
                 label="📥 Descargar archivo de muestra",
                 data=file,
