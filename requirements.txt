@@ -4,4 +4,4 @@ numpy
 scipy
 matplotlib
 fpdf
-pillow==9.0.0
+pillow
