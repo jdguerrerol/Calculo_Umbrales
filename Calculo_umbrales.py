@@ -183,7 +183,7 @@ st.sidebar.markdown("""
 """, unsafe_allow_html=True)
 
 # Mostrar el logo con la clase personalizada
-st.sidebar.image('logo-bp2.png', use_column_width=False, width=250)
+st.sidebar.image('logo-bp2.png', use_container_width=False, width=250)
 
 # Barra lateral
 #st.sidebar.title("⚙️ Configuración")
