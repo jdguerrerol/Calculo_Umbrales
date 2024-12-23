@@ -142,7 +142,7 @@ st.markdown(
         margin-bottom: 20px;
     }
     .sidebar-logo-container img {
-        max-width: 150px; /* Ajusta el tamaño del logo */
+        max-width: 100px; /* Ajusta el tamaño del logo */
         max-height: 100px;
     }
     
