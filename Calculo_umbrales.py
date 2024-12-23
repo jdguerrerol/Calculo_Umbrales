@@ -36,7 +36,7 @@ def generar_pdf(nombre_indicador, resumen_percentiles, resumen_desviaciones, fig
     pdf.set_auto_page_break(auto=True, margin=15)
 
     # Ruta del logo
-    logo_path = 'logo_pdf2.jpg'  # Cambia por la ruta del logo
+    logo_path = 'logo_pdf2.JPG'  # Cambia por la ruta del logo
     
     # Portada
     pdf.add_page()
